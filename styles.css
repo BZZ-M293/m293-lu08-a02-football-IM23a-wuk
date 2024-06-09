@@ -51,10 +51,16 @@ header nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
+
 footer .social-media {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+footer .social-media li a {
+    color: #fff;
+    text-decoration: none;
 }
 
 header nav ul li a:hover {
@@ -211,11 +217,6 @@ footer {
 footer .social-media li {
     display: inline;
     margin-right: 10px;
-}
-
-footer .social-media li a {
-    color: #fff;
-    text-decoration: none;
 }
 
 footer .social-media li a:hover {
