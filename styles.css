@@ -1,0 +1,222 @@
+/* Allgemeine Stile */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.image-background {
+    background-image: url('hero.jpg');
+    background-size: cover; /* Passt das Bild an die Größe des Elements an */
+    background-position: center; /* Zentriert das Bild */
+    background-repeat: no-repeat; /* Verhindert das Wiederholen des Bildes */
+    width: 100%; /* Passt die Breite des Elements an */
+    height: 100vh; /* Setzt die Höhe des Elements auf die volle Höhe des Viewports */
+}
+
+header .logo {
+    width: 100px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+header nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+    background: #e2e2e2;
+    margin-bottom: 20px;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px 0;
+}
+
+
+.history,
+.news,
+.events,
+.upcoming-games,
+.past-games,
+.sponsors,
+.become-sponsor,
+.contact {
+    margin-bottom: 20px;
+}
+
+.history .gallery img {
+    width: 30%;
+    margin: 5px;
+}
+
+.news article {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news article h3 {
+    margin-top: 0;
+}
+
+.events ul {
+    list-style: none;
+    padding: 0;
+}
+
+.events ul li {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background: #333;
+    color: #fff;
+}
+
+.sponsor {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.sponsor img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact ul li {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.contact form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.contact form button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .social-media {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .social-media li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer .social-media li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .social-media li a:hover {
+    text-decoration: underline;
+}
