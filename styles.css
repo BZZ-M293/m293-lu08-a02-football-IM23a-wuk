@@ -51,6 +51,11 @@ header nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
+footer .social-media {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 header nav ul li a:hover {
     text-decoration: underline;
@@ -86,17 +91,13 @@ main {
     margin-bottom: 20px;
 }
 
-.history .gallery img {
-    width: 30%;
-    margin: 5px;
-}
 
 .news article {
     background: #fff;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
 }
 
 .news article h3 {
@@ -113,7 +114,7 @@ main {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
 }
 
 table {
@@ -136,7 +137,7 @@ table th {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
     display: flex;
     align-items: center;
 }
@@ -144,6 +145,11 @@ table th {
 .sponsor img {
     width: 100px;
     margin-right: 20px;
+}
+
+.history .gallery img {
+    width: 30%;
+    margin: 5px;
 }
 
 .contact ul {
@@ -156,14 +162,14 @@ table th {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
 }
 
 .contact form {
     background: #fff;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
     margin-bottom: 20px;
 }
 
@@ -201,11 +207,6 @@ footer {
     padding: 10px 0;
 }
 
-footer .social-media {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
 
 footer .social-media li {
     display: inline;
