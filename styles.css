@@ -85,7 +85,6 @@ main {
     margin: 20px 0;
 }
 
-
 .history,
 .news,
 .events,
@@ -97,13 +96,12 @@ main {
     margin-bottom: 20px;
 }
 
-
 .news article {
     background: #fff;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* modern color-function notation */
 }
 
 .news article h3 {
@@ -120,7 +118,7 @@ main {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* modern color-function notation */
 }
 
 table {
@@ -143,7 +141,7 @@ table th {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* modern color-function notation */
     display: flex;
     align-items: center;
 }
@@ -168,14 +166,14 @@ table th {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* modern color-function notation */
 }
 
 .contact form {
     background: #fff;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* modern color-function notation */
     margin-bottom: 20px;
 }
 
@@ -212,7 +210,6 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
-
 
 footer .social-media li {
     display: inline;
